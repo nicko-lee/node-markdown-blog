@@ -9,6 +9,7 @@ mongoose.connect(process.env.MONGO_URL, {
 });
 
 app.set("view engine", "ejs");
+app.use(express.urlencoded({ extended: false }));
 app.use("/articles", articleRouter);
 
 app.get("/", (req, res) => {
