@@ -8,9 +8,9 @@ router.get("/new", (req, res) => {
 });
 
 // Page route
-router.get("/:id", async (req, res) => {
+router.get("/:slug", async (req, res) => {
   // query database search by id
-  const article = await Article.findById(req.params.id); // is an async func
+  const article = await Article.findOne({ slug: req.params.slug }); // is an async func
 
   // before rendering check if our article is null (i.e. cannot find an article)
   if (article == null) res.redirect("/");
@@ -28,7 +28,7 @@ router.post("/", async (req, res) => {
 
   try {
     article = await article.save(); // this will return the article just saved to Mongo
-    res.redirect(`/articles/${article.id}`);
+    res.redirect(`/articles/${article.slug}`);
   } catch (e) {
     res.render("articles/new", { articles: article });
   }
