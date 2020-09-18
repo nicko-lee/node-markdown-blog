@@ -1,5 +1,8 @@
 # node-markdown-blog
 
+## Note: this is the branch for Docker-Compose version of deployment for MBP
+There is another branch for the deploying on Raspberry Pi 4
+
 A simple markdown blog built with:
 
 1. MongoDB
