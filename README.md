@@ -1,9 +1,5 @@
 # node-markdown-blog
 
-![Screenshot 1](https://user-images.githubusercontent.com/37054216/93748375-8271fd80-fc3b-11ea-9962-8452c8859257.png)
-
-![Screenshot 2](https://user-images.githubusercontent.com/37054216/93748329-6706f280-fc3b-11ea-904d-1bbbf7cf2d74.png)
-
 A simple markdown blog built with:
 
 1. MongoDB
@@ -19,3 +15,10 @@ A simple markdown blog built with:
 Here is a link to the working app deployed on Heroku.
 
 https://nicko-node-markdown-blog.herokuapp.com/ 
+
+## Screenshots
+
+![Screenshot 1](https://user-images.githubusercontent.com/37054216/93748329-6706f280-fc3b-11ea-904d-1bbbf7cf2d74.png)
+
+![Screenshot 2](https://user-images.githubusercontent.com/37054216/93748375-8271fd80-fc3b-11ea-9962-8452c8859257.png)
+
