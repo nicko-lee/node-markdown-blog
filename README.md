@@ -11,3 +11,7 @@ A simple markdown blog built with:
 7. slugify to generate user friendly URLs
 8. marked to convert user inputted markdown into valid HTML
 9. method override to allow for using less common HTML verbs such as PUT, PATCH, DELETE etc.
+
+Here is a link to the working app deployed on Heroku.
+
+https://nicko-node-markdown-blog.herokuapp.com/ 
